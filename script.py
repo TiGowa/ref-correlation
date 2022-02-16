@@ -12,9 +12,9 @@ matplotlib.style.use('ggplot')
 
 response = requests.get('https://sodaki.com/api/historical-tvl').json()
 
-myXtoken = "wrap.near"
+myXtoken = "token.v2.ref-finance.near"
 
-myYtoken = "pixeltoken.near"
+myYtoken = "f5cfbc74057c610c8ef151a439252680ac68c6dc.factory.bridge.near"
 
 myTokenA = []
 
